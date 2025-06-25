@@ -12,7 +12,7 @@ O curso aborda, de forma prática e progressiva, o desenvolvimento web moderno d
 - 🎓 **Instrutores:** Jorge Sant Ana e Jamilton Damasceno  
 - ⏱️ **Duração:** +117 horas de conteúdo em vídeo  
 - 📈 **Nível:** Iniciante ao Avançado  
-- 🧰 **Tecnologias:** HTML5, CSS3, Bootstrap, JavaScript, PHP, MySQL, jQuery, Ajax, MVC, APIs, WordPress, IONIC, SASS, entre outras
+- 🛰 **Tecnologias:** HTML5, CSS3, Bootstrap, JavaScript, PHP, MySQL, jQuery, Ajax, MVC, APIs, WordPress, IONIC, SASS, entre outras
 
 ---
 
@@ -33,7 +33,7 @@ O curso aborda, de forma prática e progressiva, o desenvolvimento web moderno d
 
 ---
 
-## 💼 Projetos já desenvolvidos
+## 🗂 Projetos já desenvolvidos
 
 | Projeto                 | Tecnologias  | Descrição |
 |------------------------|--------------|-----------|
@@ -42,7 +42,7 @@ O curso aborda, de forma prática e progressiva, o desenvolvimento web moderno d
 
 ---
 
-## 🚀 Tecnologias que serão abordadas no curso
+## 🛰 Tecnologias que serão abordadas no curso
 
 - **Frontend:** HTML5, CSS3, Bootstrap 4, JavaScript (ES6+), jQuery, SASS
 - **Backend:** PHP (com e sem orientação a objetos), PHP 8, PDO, Ajax
@@ -55,7 +55,7 @@ O curso aborda, de forma prática e progressiva, o desenvolvimento web moderno d
 
 ---
 
-## 🧩 Exemplos de projetos futuros
+## 📋 Exemplos de projetos futuros
 
 - App Calculadora (JS)
 - Game Mata Mosquito (JS)
@@ -70,7 +70,7 @@ O curso aborda, de forma prática e progressiva, o desenvolvimento web moderno d
 
 ---
 
-## 🗒️ Objetivos com este repositório
+## 🔭 Objetivos com este repositório
 
 ✔️ Consolidar o conhecimento adquirido com os projetos  
 ✔️ Ter uma fonte de consulta para revisão  
