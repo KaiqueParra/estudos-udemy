@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form action="login.php" method="post">
+        <label for="ilogin">Login:</label>
+        <input type="email" name="login" id="ilogin" required autocomplete="email"><br>
+
+        <label for="isenha">Senha:</label>
+        <input type="password" name="senha" id="isenha" required autocomplete="current-password"><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+
+    <h1>Cadastro</h1>
+    <form action="cadastro.php" method="post">
+
+        <label for="inome">Nome:</label>
+        <input type="text" name="nome" id="inome" required><br>
+
+        <label for="iemail">Email:</label>
+        <input type="email" name="email" id="iemail" required><br>
+
+        <label for="isenha">Senha:</label>
+        <input type="password" name="senha" id="isenha" required><br>
+
+        <label for="iendereco">Endereço:</label>
+        <input type="text" name="endereco" id="iendereco" required><br>
+
+        <label for="iendereco">Data de Nascimento:</label>
+        <input type="date" name="data" id="idata" required><br>
+
+        <label for="iendereco">Telefone:</label>
+        <input type="tel" name="telefone" id="itelefone" required><br>
+        
+        Estado:
+        <select name="estado" id="iestado">
+            <option value="SP">SP</option>
+            <option value="RJ">RJ</option>
+            <option value="MG">MG</option>
+            <option value="ES">ES</option>
+            <option value="SC">SC</option>
+            <option value="PR">PR</option>
+            <option value="RS">RS</option>
+            <option value="MS">MS</option>
+            <option value="MT">MT</option>
+            <option value="GO">GO</option>
+            <option value="DF">DF</option>
+            <option value="TO">TO</option>
+            <option value="PA">PA</option>
+            <option value="MA">MA</option>
+            <option value="PI">PI</option>
+        </select><br>
+
+        <label for="isexo">Sexo:</label><br>
+        <input type="radio" name="sexo" id="isexo" value="M">Masculino<br>
+
+        <input type="radio" name="sexo" id="isexo" value="F">Feminino<br>
+
+        <input type="radio" name="sexo" id="isexo" value="Prefiro-nao-dizer">Prefiro não dizer<br>
+
+        <label for="">Interesses:</label><br>
+        <input type="checkbox" name="inter" id="iinter" value="Esportes">Esportes<br>
+
+        <input type="checkbox" name="inter" id="iinter" value="Cinema">Cinema<br>
+
+        <input type="checkbox" name="inter" id="iinter" value="Música">Música<br>
+
+        <input type="checkbox" name="inter" id="iinter" value="Filmes">Filmes<br>
+
+        <input type="checkbox" name="inter" id="iinter" value="Livros">Livros<br>
+
+        <input type="checkbox" name="inter" id="iinter" value="Viagens">Viagens<br>
+
+        <input type="checkbox" name="inter" id="iinter" value="Tecnologia">Tecnologia<br>
+
+        <input type="checkbox" name="inter" id="iinter" value="Outros">Outros<br>
+
+        <label for="iobs">Observações:</label><br>
+        <textarea name="obs" id="iobs" cols="30" rows="10"></textarea><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>

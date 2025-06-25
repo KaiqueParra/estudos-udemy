@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body{
+    background: #d2d2c1 url("../img/fundo.png");
+    font: 16px Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+#principal{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#capa{
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+}
+
+#menu{
+    background: #c5c5b2;
+    padding: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: #4b566a;
+    font-weight: bold;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: #1d2129;
+    transition: color 0.3s ease;
+}
+
+#conteudo{
+    background: #e8e8d9;
+    padding: 20px;
+}
+
+.foto-campanha {
+    border: 10px solid #c3c3ae;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .foto-campanha {
+        border-width: 8px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .foto-campanha {
+        border-width: 5px;
+    }
+}
+
+h1{
+    color: #828271;
+    font-size: 1.5em;
+}
+
+.center{
+    text-align: center;
+}

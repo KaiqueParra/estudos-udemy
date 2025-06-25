@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body{
+    background-color: #141414;
+    color: white;
+}
+/*Com o display podemos mudar o comportamento do elemento, de block para inline e vice-versa*/
+
+/* Com o display inline-block, o elemento se comporta como um bloco, mas ainda pode ser colocado ao lado de outros elementos inline */
+
+.borda{
+    border: 1px solid #00C7A9;
+    display: inline-block; 
+}

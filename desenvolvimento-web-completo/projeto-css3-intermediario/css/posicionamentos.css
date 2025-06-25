@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body{
+    background-color: #141414;
+}
+
+#container{
+    background: rgb(134, 134, 134);
+    max-width: 1020px;
+    padding: 10px;
+    margin: 10px auto;
+    position: relative;
+}
+
+/*O posicionamento static é o padrão, onde os elementos são posicionados de acordo com o fluxo normal do documento.*/
+
+h1{
+    position: static;
+}
+
+p{
+    width: 400px;
+}
+
+/*O posicionamento relative é usado para posicionar um elemento em relação à sua posição original. Ele não retira o elemento do fluxo normal do documento, mas permite que você mova-o em relação à sua posição original.*/
+.relative{
+    border: 2px solid #00C7A9;
+    position: relative;
+    /*Top, Right, Bottom, Left*/
+    top: 5px;
+    left: 100px;
+}
+
+/*O posicionamento absolute é usado para posicionar um elemento em relação ao seu ancestral mais próximo que tenha um posicionamento diferente de static.*/
+.absolute{
+    background: rgb(134, 134, 134);
+    border: 2px solid #FFB800;
+    position: absolute;
+    /*Top, Right, Bottom, Left*/
+    top: 180px;
+    right: 20px;
+}
+
+/*O posicionamento fixed é usado para posicionar um elemento em relação à janela de visualização do navegador. 
+Ele permanece fixo na mesma posição, mesmo quando a página é rolada. 
+O elemento com posicionamento fixed é removido do fluxo normal do documento, então outros elementos não serão afetados por ele. 
+O elemento com posicionamento fixed é posicionado em relação à janela de visualização do navegador, e não em relação ao seu ancestral mais próximo com posicionamento diferente de static. 
+Isso significa que, mesmo que você role a página, o elemento com posicionamento fixed permanecerá na mesma posição na janela de visualização do navegador. 
+Isso é útil para criar elementos que permanecem visíveis na tela, como barras de navegação fixas, cabeçalhos ou rodapés. 
+O posicionamento fixed é frequentemente usado para criar elementos que permanecem visíveis na tela, como barras de navegação fixas, cabeçalhos ou rodapés.
+No entanto, é importante ter cuidado ao usar o posicionamento fixed, pois ele pode interferir na experiência do usuário, especialmente em dispositivos móveis.*/
+.fixed{
+    background: rgb(134, 134, 134);
+    border: 2px solid #FF0000;
+    margin: 0px;
+    position: fixed;
+    /*Top, Right, Bottom, Left*/
+    bottom: 0px;
+    right: 0px;
+
+}
