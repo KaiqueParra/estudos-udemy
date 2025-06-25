@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body{
+    background-color: #141414;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Links não visitados */
+a:link {
+    color: orange;
+}
+
+/* Links visitados */
+a:visited {
+    color: rgb(182, 8, 182);
+}
+
+/* Links hover, ao passar o mouse sobre o link */
+a:hover {
+    color: #00C7A9;
+    background-color: rgb(56, 55, 55);
+    text-decoration: underline;
+}
+
+/* Links ativos, quando o link é clicado */
+a:active {
+    color: red;
+    text-decoration: none;
+}
