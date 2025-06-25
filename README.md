@@ -76,3 +76,8 @@ O curso aborda, de forma prática e progressiva, o desenvolvimento web moderno d
 ✔️ Ter uma fonte de consulta para revisão  
 ✔️ Compartilhar minha evolução como desenvolvedor web  
 ✔️ Organizar práticas e boas práticas de desenvolvimento  
+
+---
+<p align="center">
+<i> 💬 "O conhecimento é construído com prática e repetição. Continue evoluindo, um projeto de cada vez."</i>
+</p>
