@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    background-color: #141414;
+}
+
+.conteudo1{
+    border: 1px solid #00C7A9;
+    background: darkgray;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 2; /* Define a ordem de empilhamento do elemento */
+    /*z-index define o que aparece primeiro*/
+}
+
+
+.conteudo2{
+    border: 1px solid #00C7A9;
+    background: rgb(77, 76, 76);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 1; /* Este elemento aparecerá atrás do conteudo 1 */
+    /*z-index define o que aparece depois*/
+}
+
+.conteudo3{
+    border: 1px solid #00C7A9;
+    color: white;
+    background: rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    z-index: 0; /* Este elemento aparecerá atrás do conteudo 2 */
+    /*z-index define o que aparece depois*/
+}
+/* 
+Sobreposição de elementos com z-index
+O z-index é usado para controlar a sobreposição de elementos posicionados.
+Elementos com um valor de z-index maior aparecerão na frente de elementos com um valor menor.
+z-index define o que aparece primeiro e o que aparece depois, ou seja, o elemento com o maior z-index aparecerá na frente dos outros elementos com z-index menor.
+z-index também é chamado de contexto de empilhamento*/
