@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* Seletor Universal 
+* {
+    border: 1px solid #00C7A9;
+}*/
+
+
+/* Seletor de Texto 
+h1{
+    color: purple
+}*/
+
+
+/* Seletor de Classe
+
+.laranja {
+    color: orange;
+}
+
+p.laranja { 
+    color: orange;
+} p.laranja só se aplica a parágrafos */
+
+
+/* Seletor de ID 
+
+#cabeçalho{
+    border: 1px solid #FF0000;
+}*/
+
+
+/* Seletor de Filho
+
+li > a{
+    color : #00C7A9;
+    text-decoration: none;
+} */
+
+
+/* Seletor de Descendentes 
+div a{
+    color: #00C7A9;
+    text-decoration: none;
+}*/
+
+
+/* Seletor de Irmãos Adjacentes
+h1 + p{
+    color: #00C7A9;
+}*/
+
+
+/* Seletor de Irmão Geral
+h1 ~ p{
+    color: #00C7A9;
+}*/
+
+
+/* 
+Explicação dos seletores utilizados:
+
+1. Seletor Universal (*): Seleciona todos os elementos da página.
+2. Seletor de Texto (h1): Seleciona todos os elementos do tipo especificado, como todos os <h1>.
+3. Seletor de Classe (.classe): Seleciona todos os elementos que possuem a classe especificada.
+4. Seletor de Classe em Elemento Específico (p.classe): Seleciona apenas os elementos <p> com a classe especificada.
+5. Seletor de ID (#id): Seleciona o elemento com o ID especificado (deve ser único na página).
+6. Seletor de Filho (elemento > elemento): Seleciona elementos que são filhos diretos de outro elemento.
+7. Seletor de Descendentes (elemento elemento): Seleciona todos os elementos descendentes, em qualquer nível, de outro elemento.
+8. Seletor de Irmãos Adjacentes (elemento + elemento): Seleciona o elemento imediatamente após outro elemento.
+9. Seletor de Irmão Geral (elemento ~ elemento): Seleciona todos os elementos irmãos que vêm depois de outro elemento, não necessariamente imediatamente.
+
+Esses seletores ajudam a aplicar estilos de forma específica e organizada no CSS.
+*/
