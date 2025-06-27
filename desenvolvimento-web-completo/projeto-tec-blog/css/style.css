@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+/* Formatação Padrão */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #201f1f;
+}
+
+/* Cabeçalho */
+header{
+    background-color: #f7b600;
+    padding: 20px;
+    text-align: center;
+}
+#logo{
+    padding: 10px;
+}
+
+#logo > h1{
+    color: #4e4e4e;
+    font-size: 3em;
+}
+
+.branco{
+    color: white;
+}
+
+/* Menu */
+#menu{
+    padding: 10px;
+}
+
+#menu > a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#menu > a:link, a:visited{
+    color: white;
+    padding: 10px;
+}
+
+#menu > a:hover{
+    color: #f7b600;
+    background: white;
+    border-radius: 5px;
+}
+
+/* Conteúdo */
+#principal{
+    color: black;
+    max-width: 920px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#postagens, #lateral-direita{
+    background: rgb(65, 60, 60);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+#postagens{
+    max-width: 660px;
+    flex: 1;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.postagem > h2{
+    color: #f7b600;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.postagem > img{
+    max-width: 620px;
+    height: auto;
+    border: 6px solid #ccc;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+.postagem > a:link, .postagem > a:visited{
+    color: #f7b600;
+    text-decoration: none;
+}
+
+.postagem > a:hover{
+    color: #f7b600;
+    text-decoration: underline;
+}
+
+.data{
+    display: block;
+    border-bottom: 1px solid #f7b600;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+/*Media Queries */
+@media (max-width: 768px) {
+#principal {
+    flex-direction: column;
+}
+
+#lateral-direita {
+    width: 100%;
+    margin-top: 20px; 
+}
+
+.postagem > img {
+    max-width: 100%;
+}
+}
+
+/* Lateral Direita */
+#lateral-direita{
+    width: 250px;
+    flex-shrink: 0;
+}
+
+.conteudo-lateral{
+    padding: 15px;
+}
+
+.conteudo-lateral > h3{
+    color: #f7b600;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    background: rgb(34, 33, 33);
+    padding: 10px;
+}
+
+.postagens-recentes  hr{
+    margin-bottom: 10px;
+}
+
+.postagens-recentes a, .postagens-recentes a:link, .postagens-recentes a:visited{
+    text-decoration: none;
+    color: #f7b600;
+}
+
+.postagens-recentes a:hover{
+    text-decoration: underline;
+}
+
+.categorias a, .categorias a:link, .categorias a:visited{
+    text-decoration: none;
+    color: #f7b600;
+}
+
+.categorias a:hover{
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer > p{
+    max-width: 900px;
+    margin: auto;
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background: rgb(34, 33, 33);
+    color: #f7b500d0;
+}
+
+footer p a, footer p a:link,footer p a:visited {
+    color: #f7b500d0;
+    text-decoration: none;
+}
