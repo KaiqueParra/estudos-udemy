@@ -39,6 +39,7 @@ O curso aborda, de forma prática e progressiva, o desenvolvimento web moderno d
 |------------------------|--------------|-----------|
 | **UNES**               | HTML5        | Site institucional de uma universidade fictícia. |
 | **Anna Bella**         | CSS3         | Página pessoal fictícia para praticar estilização. |
+| **TecBlog**            | HTML5, CSS3  | Blog fictício de tecnologia para treinar estrutura e layout. |
 
 ---
 
