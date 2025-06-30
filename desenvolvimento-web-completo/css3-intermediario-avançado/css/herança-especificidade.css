@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*  Herança e Especificidade
+
+    Herança: É um mecanismo do CSS onde elementos filhos herdam 
+    propriedades de seus elementos pais. Por exemplo, se você define uma cor 
+    de texto no elemento pai, todos os elementos filhos herdarão essa cor.
+
+    Especificidade: É o conjunto de regras que o navegador usa 
+    para decidir qual estilo aplicar quando há múltiplas regras conflitantes 
+    para o mesmo elemento. A ordem de especificidade (do menor para o maior) é:
+    1. Seletores universais (*)
+    2. Elementos e pseudo-elementos
+    3. Classes, atributos e pseudo-classes
+    4. IDs
+    5. Estilos inline
+    6. !important
+*/
+
+
+/*Exemplos de Herança e Especificidade*/
+/*
+body{
+    background: #141414;
+    color: white;
+    border: 1px solid #00C7A9;
+}
+
+
+#pagina p {
+    color: #00c7a9 !important;
+}
+
+#pagina p {
+    color: red;
+}
+
+
+/*Se um seletor for mais específico que outro a regra mais específica será aplicada. (Terá precedência sobre regras mais gerais)*/
+*{
+    background: #141414;
+    color: white;
+}
+
+h2{/*3°*/
+    color: #00c7a9;
+}
+
+h2.red{/*2°*/
+    color: red;
+}
+
+h2#purple {/*1°*/
+    color: purple;
+}
+/*Id é mais específico que a class. A ordem de especificidade é: id > class > elemento. Se uma Tag tiver uma classe e um id, o id será mais específico.*/
