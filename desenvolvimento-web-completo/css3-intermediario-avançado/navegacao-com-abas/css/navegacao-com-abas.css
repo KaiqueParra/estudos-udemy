@@ -39,18 +39,3 @@ ul #atual{
 ul #atual a {
     background: url(../img/aba-esquerda-atual.png) no-repeat top left;
 }
-
-
-
-/*
-#home #navegacao .home a,
-#sobre #navegacao .sobre a,
-#servico #navegacao .servico a,
-#contato #navegacao .contato a,
-#blog #navegacao .blog a{
-    color: ;
-    background-position: ;
-    background-color: ;
-    transition: 0.5s;
-    font-weight: bold;
-}*/
