@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body{
+    background: #141414;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #00c7a9;
+    width: 720px;
+    background: #159cb0 url(../img/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+
+ul li {
+    float: left;
+}
+
+ul a{
+    display: block;
+    padding: 0 2em;
+    line-height: 2.2em;
+    color: white;
+    text-decoration: none;
+    background: url(../img/divisor.png) repeat-y left top;
+}
+
+ul .primeiro a {
+    background: none;
+}
+
+ul a:hover {
+    color: #085662;
+    background-color: #44cade;
+    transition: 0.5s;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servico #navegacao .servico a,
+#contato #navegacao .contato a,
+#blog #navegacao .blog a{
+    color: #085662;
+    background-position: right bottom;
+    background-color: #44cade;
+    transition: 0.5s;
+    font-weight: bold;
+}
