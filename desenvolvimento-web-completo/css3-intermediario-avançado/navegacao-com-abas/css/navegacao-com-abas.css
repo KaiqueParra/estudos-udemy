@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: white;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 7200px;;
+}
+
+ul li {
+    float: left;
+    background: url(../img/aba-direita2.png) no-repeat top right;
+}
+
+li a {
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    color: white;
+    text-decoration: none;
+    background: url(../img/aba-esquerda2.png) no-repeat top left;
+}
+
+ul a:hover{
+    color: #894a1f
+    
+}
+
+ul #atual{
+    background: url(../img/aba-direita-atual.png) no-repeat top right;
+}
+
+ul #atual a {
+    background: url(../img/aba-esquerda-atual.png) no-repeat top left;
+}
+
+
+
+/*
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servico #navegacao .servico a,
+#contato #navegacao .contato a,
+#blog #navegacao .blog a{
+    color: ;
+    background-position: ;
+    background-color: ;
+    transition: 0.5s;
+    font-weight: bold;
+}*/
