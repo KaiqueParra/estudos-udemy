@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #141414;
+}
+
+#conteiner{
+    width: 960px;/*720px*/
+    margin: 0 auto;
+    background: white url(../img/coluna.png) repeat-y left top;
+    max-width: 1200px;
+    min-width: 580px;
+}
+
+#marca{
+    width: 100%;
+    background: #215891 url(../img/cabecalho2.jpg) no-repeat center;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+
+#conteudo{
+    max-width: 75%;/*520px --> 74.28*/
+    float: right;
+}
+
+#conteudo-principal{
+    width: 63%;/*320px --> 64*/
+    float: left;
+}
+
+/*
+#imagem{
+    width: 90%;
+    overflow: hidden;
+    border: 10px solid #424242;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.288);
+}
+*/
+
+img.img-conteudo{
+    width: 96%;
+    max-width: 600px;
+    border: 10px solid #969696;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.288);
+}
+
+#conteudo-secundario{
+    width: 34%;/*180px --> 36*/
+    float: right;
+    background: #d6d6d6;
+}
+
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p{
+    padding: 0 20px 0 20px;
+}
+
+#navegacao{
+    width: 23%;/*180px --> 25.71*/
+    float: left;
+    padding: 20px 0 20px 0;
+    /*background: #dbdbdb;*/
+    color: black;
+}
+
+#navegacao ul{
+    list-style-type: none;
+}
+
+#navegacao li a{
+    color: black;
+    text-decoration: none;
+}
+
+#navegacao li a:visited{
+    color: white;
+}
+
+#navegacao li a:hover{
+    color: #04e0bf;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+
+
+#rodape p{
+    clear: both;
+    background: #a0a0a0;
+    padding: 5px;
+    text-align: center;
+}
