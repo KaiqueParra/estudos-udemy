@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #141414;
+    color: white
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    width: 600px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+}
+
+th{
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: bold;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: left;
+    letter-spacing: 0.1em;
+}
+
+tr.alternado-cinza{
+    background: rgb(83, 83, 83);
+}
+
+tr:hover{
+    background: #02b69b;
+    color: black;
+    transition: 0.4s;
+}
+
+.numero{
+    text-align: right;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilizando-formulario.css">
+    <title>Estilizando Formulário</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Estilizando Formulário</h1>
+
+        <form action="estilizando-formulario.php" method="post">
+
+            <fieldset>
+                <legend>Detalhes de Contato</legend>
+
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required autocomplete="name">
+                </div>
+
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required autocomplete="email">
+                </div>
+
+                <div>
+                    <label for="url">Website:</label>
+                    <input type="url" id="url" name="url" placeholder="Digite seu website" autocomplete="url">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Comentários</legend>
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem"></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Lembrar de Mim</legend>
+                <div>
+                    <label for="lembrar">Lembrar de Mim:</label>
+                    <input class="radio" type="radio" name="lembrar" id="lembrar-sim" value="sim"> Sim
+                    <input class="radio" type="radio" name="lembrar" id="lembrar-nao" value="nao"> Não
+                </div>
+
+                <div>
+                    <input type="submit" value="Enviar" required>
+                    <input type="reset" value="Limpar" />
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
