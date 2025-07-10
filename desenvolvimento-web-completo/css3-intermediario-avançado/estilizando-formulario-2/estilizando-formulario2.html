@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilizando-formulario2.css">
+    <title>Estilizando Formulário</title>
+</head>
+<body>
+    <div id="container">
+        <img src="img/perfil.png" alt="Imagem de perfil">
+
+        <form action="login.php" method="post">
+            <div>
+                <input class="e-mail" type="email" name="email" id="email" placeholder="Digite seu e-mail" required autocomplete="email">
+            </div>
+
+            <div>
+                <input class="senha" type="password" name="senha" id="senha" placeholder="Digite sua senha" required autocomplete="current-password">
+            </div>
+
+            <div>
+                <input class="submit" type="submit" value="Entrar">
+            </div>
+        </form>
+
+        <a id="recuperar-senha" href="recuperar-senha.html">Esqueceu sua senha?</a>
+    </div>
+</body>
+</html>

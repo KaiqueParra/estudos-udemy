@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body{
+    background: #141414 url(../img/fundo.jpg) no-repeat top center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#container{
+    max-width: 400px;
+    height: 300px;
+    background-color: #14141463;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -60px;
+    margin-bottom: 30px;
+    border: 3px solid #383838;
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: #d4d4d4;
+    border-radius: 5px;
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.e-mail{
+    background-image: url(../img/icone-usuario.png);
+}
+
+input.senha{
+    background-image: url(../img/icone-cadeado.png);
+}
+
+input.submit{
+    padding: 5px 20px;
+    background-color: #424242;
+    color: #fff;
+    width: 90%;
+    height: 45px;
+    
+}
+
+input.submit:hover{
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+
+input.submit:active{
+    background-color: #424242;
+    color: #fff;
+}
+
+#recuperar-senha{
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#recuperar-senha:hover{
+    text-decoration: underline;
+}
